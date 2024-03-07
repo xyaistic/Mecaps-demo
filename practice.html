@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="practice.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h2>Calculator</h2>
+            <input type="text" readonly id="display">
+            <div class="buttons">
+                
+            </div>
+            <div class="buttons">
+                <button id="btn" onclick="appendToDisypla('7')">7</button>
+                <button id="btn" onclick="appendToDisypla('8')">8</button>
+                <button id="btn" onclick="appendToDisypla('9')">9</button>
+                <button id="btn" onclick="appendToDisypla('*')">X  </button>
+            </div>
+            <div class="buttons">
+                <button id="btn" onclick="appendToDisypla('4')">4</button>
+                <button id="btn" onclick="appendToDisypla('5')">5</button>
+                <button id="btn" onclick="appendToDisypla('6')">6</button>
+                <button id="btn" onclick="appendToDisypla('-')">-</button>
+            </div>
+            <div class="buttons">
+                <button id="btn" onclick="appendToDisypla('1')">1</button>
+                <button id="btn" onclick="appendToDisypla('2')">2</button>
+                <button id="btn" onclick="appendToDisypla('3')">3</button>
+                <button id="btn" onclick="appendToDisypla('+')">+</button>
+            </div>
+            <div class="buttons">
+                <button id="btn" onclick="clearDisplay( )">C</button>
+                <button id="btn" onclick="appendToDisypla('0')">0</button>
+                <button id="btn" onclick="appendToDisypla('.')">.</button>
+                <button id="btn" onclick="calculate()">=</button>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="practice.js"></script>
+</body>
+
+</html>
